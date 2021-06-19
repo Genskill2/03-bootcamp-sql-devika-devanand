@@ -16,6 +16,6 @@ CREATE TABLE subjects(
 CREATE TABLE books_subjects(
 	book INTEGER,
 	subject INTEGER,
-	FOREIGN KEY(book)  REFERENCES book(id),
+	FOREIGN KEY(book)  REFERENCES books(id),
 	FOREIGN KEY(subject) REFERENCES subjects(id));
 
