@@ -6,3 +6,4 @@ DELETE FROM books_subjects
 	FROM subjects s, books_subjects bs
 	WHERE s.id = bs.subject and s.name = 'History');
 	
+DELETE FROM subjects WHERE name = 'History';	
