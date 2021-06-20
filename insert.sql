@@ -27,7 +27,7 @@ INSERT INTO subjects(id,name) VALUES (3,'Technology');
 INSERT INTO subjects(id,name) VALUES (4,'Go');
 INSERT INTO subjects(id,name) VALUES (5,'Science Fiction');
 INSERT INTO subjects(id,name) VALUES (6,'Productivity');
-INSERT INTO subjects(id,name) VALUES (7,'Psycology');
+INSERT INTO subjects(id,name) VALUES (7,'Psychology');
 INSERT INTO subjects(id,name) VALUES (8,'Politics');
 INSERT INTO subjects(id,name) VALUES (9,'History');
 
