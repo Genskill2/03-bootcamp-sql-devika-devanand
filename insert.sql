@@ -20,23 +20,14 @@ INSERT INTO publisher(id,name,country) VALUES (6,'Vintage','UK');
 
 
 --Entering values into books_subjects
-INSERT INTO books_subjects(book,subject) VALUES (1,1);
-INSERT INTO books_subjects(book,subject) VALUES (1,2);
-INSERT INTO books_subjects(book,subject) VALUES (1,3);
-INSERT INTO books_subjects(book,subject) VALUES (2,3);
-INSERT INTO books_subjects(book,subject) VALUES (2,4);
-INSERT INTO books_subjects(book,subject) VALUES (3,2);
-INSERT INTO books_subjects(book,subject) VALUES (3,3);
-INSERT INTO books_subjects(book,subject) VALUES (4,3);
-INSERT INTO books_subjects(book,subject) VALUES (4,5);
-INSERT INTO books_subjects(book,subject) VALUES (5,3);
-INSERT INTO books_subjects(book,subject) VALUES (5,6);
-INSERT INTO books_subjects(book,subject) VALUES (6,6);
-INSERT INTO books_subjects(book,subject) VALUES (6,7);
-INSERT INTO books_subjects(book,subject) VALUES (7,5);
-INSERT INTO books_subjects(book,subject) VALUES (7,8);
-INSERT INTO books_subjects(book,subject) VALUES (8,8);
-INSERT INTO books_subjects(book,subject) VALUES (8,9);
+INSERT INTO books_subjects(book,subject) VALUES (1,1),(1,2),(1,3);
+INSERT INTO books_subjects(book,subject) VALUES (2,4),(2,3);
+INSERT INTO books_subjects(book,subject) VALUES (3,2),(3,3);
+INSERT INTO books_subjects(book,subject) VALUES (4,3),(4,5);
+INSERT INTO books_subjects(book,subject) VALUES (5,3),(5,6);
+INSERT INTO books_subjects(book,subject) VALUES (6,6),(6,7);
+INSERT INTO books_subjects(book,subject) VALUES (7,5),(7,8);
+INSERT INTO books_subjects(book,subject) VALUES (8,8),(8,9);
 
 
 --Entering values for books
